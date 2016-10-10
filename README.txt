@@ -17,7 +17,6 @@ subscribed topics:
 parameters:
 -----------
 ~swarm_id (required)
-~group_id (required)
 ~robot_id (required)
 /swarm_size (optional, default: 10)
 
