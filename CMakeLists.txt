@@ -48,6 +48,7 @@ find_package(catkin REQUIRED
 add_message_files(
     FILES
     Health.msg
+    Warn.msg
 #   Message1.msg
 #   Message2.msg
 )

@@ -9,14 +9,16 @@ check if it needs to be substituted.
 published topics:
 -----------------
 /broadcast
+/warnings
 
 subscribed topics:
 ------------------
 /broadcast
+/warnings
 
 parameters:
 -----------
-~swarm_id (required)
-~robot_id (required)
+~robot_id   (required)
+~swarm_id   (optional, default: 0)
 /swarm_size (optional, default: 10)
 

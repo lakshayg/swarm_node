@@ -4,21 +4,26 @@
     <node pkg='swarm_node' type='node.py' name='node4' output='screen' >
         <param name='swarm_id' value='0' />
         <param name='robot_id' value='4' />
+        <param name='neighbors' value='[3,0]' />
     </node>
     <node pkg='swarm_node' type='node.py' name='node3' output='screen' >
         <param name='swarm_id' value='0' />
         <param name='robot_id' value='3' />
+        <param name='neighbors' value='[2,4]' />
     </node>
     <node pkg='swarm_node' type='node.py' name='node2' output='screen' >
         <param name='swarm_id' value='0' />
         <param name='robot_id' value='2' />
+        <param name='neighbors' value='[1,3]' />
     </node>
     <node pkg='swarm_node' type='node.py' name='node1' output='screen' >
         <param name='swarm_id' value='0' />
         <param name='robot_id' value='1' />
+        <param name='neighbors' value='[0,2]' />
     </node>
     <node pkg='swarm_node' type='node.py' name='node0' output='screen' >
         <param name='swarm_id' value='0' />
         <param name='robot_id' value='0' />
+        <param name='neighbors' value='[4,1]' />
     </node>
 </launch>
